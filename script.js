@@ -46,11 +46,7 @@ function moveLines(){
     })
 }
 
-function endgame(){
-    player.start = false;
-    startScreen.classList.remove('hide');
-    startScreen.innerHTML = "Game Over <br><br> Your Final score is : "+ player.score +".<br><br> Press here to restart the Game."
-}
+
 
 function moveEnemy(car){
     let enemy = document.querySelectorAll('.enemy');
