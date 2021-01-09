@@ -40,7 +40,26 @@
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
-
+.startScreen {
+  position: absolute;
+  background: #ee5253;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  border: 1px solid #ff6b6b;
+  width: 700px;
+  height: 200px;
+  padding-top: 50px;
+  line-height: 30px;
+  line-break: normal;
+  word-spacing: 3;
+  text-align: center;
+  color: white;
+  font-size: 2.4rem;
+  font-family: fantasy;
+  box-shadow: 0 5px 5px #777;
+}
 .side-score {
   position: absolute;
   top: 15px;
